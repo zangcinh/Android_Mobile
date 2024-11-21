@@ -53,7 +53,7 @@ Tác vụ xử lý cấp thấp là những hoạt động xử lý trực tiế
   - Thư viện SQLite: hệ cơ sở dữ liệu để các ứng dụng có thể sử dụng
 
  # 5. Java API framework 
- - Các tính năng của Android được thông qua API được viết bằng ngôn ngữ Java. API là thành phần quan trọng để tạo nên ứng dụng Android, bao gồm
+- Các tính năng của Android được thông qua API được viết bằng ngôn ngữ Java. API là thành phần quan trọng để tạo nên ứng dụng Android, bao gồm
   - Xây dựng giao diện người dùng (UI) của ứng dụng, bao gồm danh sách, hộp văn bản, nút bấm,..
   - Trình quản lý tài nguyên (resource manager), cung cấp quyền truy cập vào các tài nguyên không phải mã, như văn bản, hình ảnh,...
   - Trình quản lý thông báo (notification manager) cho phép tất cả ứng dụng hiển thị thông báo trên thanh trạng thái
