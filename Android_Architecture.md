@@ -53,4 +53,16 @@ d) Native C/C++ libraries
   - Thư viện SQLite: hệ cơ sở dữ liệu để các ứng dụng có thể sử dụng
 
  e) Java API framework 
- - 
+ - Các tính năng của Android được thông qua API được viết bằng ngôn ngữ Java. API là thành phần quan trọng để tạo nên ứng dụng Android, bao gồm
+  - Xây dựng giao diện người dùng (UI) của ứng dụng, bao gồm danh sách, hộp văn bản, nút bấm,..
+  - Trình quản lý tài nguyên (resource manager), cung cấp quyền truy cập vào các tài nguyên không phải mã, như văn bản, hình ảnh,...
+  - Trình quản lý thông báo (notification manager) cho phép tất cả ứng dụng hiển thị thông báo trên thanh trạng thái
+  - Trình quản lý hoạt động (activity manager) quản lý vòng đời của ứng dụng
+  - Các trình cung cấp nội dung (content providers) cho phép ứng dụng truy cập dữ liệu từ các ứng dụng khác, ví dụ: danh bạ
+
+f) System apps
+- Đây là phần ứng dụng giao tiếp trực tiếp với người sử dụng, bao gồm các ứng dụng như
+  - Các ứng dụng cơ bản gắn liền với hệ điều hành: gọi điện, quản lý danh bạ, duyệt web, nhắn tin,...
+  - Các ứng dụng được cài thêm như trò chơi, phần mềm học,..
+
+# 2. Android Architecture
