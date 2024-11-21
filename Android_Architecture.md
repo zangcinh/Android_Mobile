@@ -85,4 +85,11 @@ Tác vụ xử lý cấp thấp là những hoạt động xử lý trực tiế
 # Android Security Model
 
 ## 1. UID Separation
-- Mỗi thiết bị sẽ có 1 ID định dang riêng để phân biệt với các ứng dụng khác
+- Mỗi ứng dụng sẽ có 1 ID định dang riêng để phân biệt với các ứng dụng khác. Về cơ bản , ứng dụng có thể tương tác với bát kỳ tệp nào thuộc sở hữu của ID người dung đó, nhưng không tương tác với những tệp khác, trừ khi chúng được chia sẻ với ứng dụng khác hoặc hệ điều hành. sự tách biệt UID này tạo thành nền tảng của Android Application Sandbox và ngăn chặn bất cứ thứ gì ngoài ứng dụng, 1 số thành phần nhất định của hệ điều hành hoặc người dùng "root" truy cập vào dữ liệu của ứng dụng
+- Trên thiết bị Android, nếu bạn di chuyển đến 1 thư mục chứa tất cả thư mục ứng dụng và chạy lệnh `ls -al`, bạn sẽ thấy mỗi thư mục ứng dụng đều được sở hữu bởi 1 tên người dùng duy nhất
+
+## 2. Sandbox
+- Sandbox có tác dụng cô lập các ứng dụng, ngăn chặn các phần mềm độc hại không làm hỏng hệ thống
+- Thư mục dữ liệu riêng: Khi cài 1 ứng dụng, Android sẽ cấp 1 thư mục riêng trong hệ thống tệp. Dữ liệu ứng dụng chỉ có thể được chính ứng dụng đó truy cập, không có ứng dụng nào khác có quyền đọc/ghi vào thư mục này
+- Quy trình và UID riêng: Mỗi ứng dụng khi chạy được Android cấp 1 UID duy nhất. Mỗi ứng dụng chạy trong 1 tiến trình riêng biệt với UID riêng biệt. Điều này đảm bảo ứng dụng không thể truy cập vào tệp của ứng dụng khác mà không được cho phép
+  
