@@ -6,7 +6,7 @@
 4. [Android Security Model](#android-security-model)
 
 
-## 1. Tổng quan
+## Tổng quan
 
 - Các thành phần chính trong hệ điều hành Android 
 
@@ -65,4 +65,4 @@ f) System apps
   - Các ứng dụng cơ bản gắn liền với hệ điều hành: gọi điện, quản lý danh bạ, duyệt web, nhắn tin,...
   - Các ứng dụng được cài thêm như trò chơi, phần mềm học,..
 
-## 2. Android Architecture
+## Android Architecture
