@@ -78,6 +78,18 @@ b) Thẻ uses-permission
 
 c) Thẻ permission
 
--  Thẻ 
+-  Thẻ này dùng để khai báo ứng dụng cần một số quyền cụ thể để truy cập các tính năng hoặc dữ liệu nhạy cảm trên thiết bị 
 d) Thẻ application
+
+- Thẻ này sẽ hiển thị các cấu hình của ứng dụng
+  - `Android:allowBackup`: nếu là `true` cho phép ứng dụng sao lưu dữ liệu khi người dùng sử dụng tính năng sao lưu (backup) của hệ điều hành Android. Nếu là `false`, dữ liệu không được sao lưu
+  - `android:dataExtractionRules="@xml/data_extraction_rules"`: trỏ đến tệp XML định nghĩa các quy tắc trích xuất dữ liệu
+  - `android:fullBackupContent="@xml/backup_rules"`: trỏ đến tệp XML mô tả chi tiết những dữ liệu nào trong ứng dụng được và không được sao lưu
+  - `android:icon="@mipmap/ic_launcher"`: biểu tượng icon của ứng dụng ( biểu tượng hiển thị trên màn hình chính của thiết bị )
 e) Thẻ Activity
+
+- Thẻ định nghĩa 1 hoạt động trong ứng dụng
+
+**2. Classes.dex**
+
+- 
