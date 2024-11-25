@@ -92,4 +92,12 @@ e) Thẻ Activity
 
 **2. Classes.dex**
 
-- 
+- Trong Android, Java  được biên dịch thành các tập tin `.class`. Vì máy ảo Dalvik không đọc được tệp Java này nên công cụ dx trong Android SDK sẽ chuyển các tệp `.class` này thành tệp `.dex`
+
+![607f4f6df411bd38d07dd7f9_d8_minimal_dex](https://github.com/user-attachments/assets/94bf15c3-7d1b-433a-8186-ee2c8a5aad94)
+
+**3. Assets folder**
+
+- Tệp tin này thường chứa HTML, fonts, mp3, hình ảnh, văn bản,..
+
+**4. Lib folder**
