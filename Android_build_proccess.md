@@ -101,3 +101,25 @@ e) Thẻ Activity
 - Tệp tin này thường chứa HTML, fonts, mp3, hình ảnh, văn bản,..
 
 **4. Lib folder**
+
+- Thư mục này được sử dụng để lưu trữ các thư viện và mã đã được biên dịch trước
+
+**5. META-INF folder**
+
+- Thư mục này đóng vai trò bảo vệ, xác thực ứng dụng
+- Thành phần
+  - CERT.RSA: chứa chữ ký số của ứng dụng
+  - CERT.SF: chứa danh sách tài nguyên và giá trị hash của chúng
+  - MANIFEST.MF: chứa danh sách tài nguyên và giá trị hash SHA1 tương ứng
+ 
+**6. Res folder**
+ 
+- Thư mục này chứa tài nguyên trong các thư mục con : hình ảnh, bố cục, thư mục `mipmap/` cho các biểu tượng trình chạy và tệp tài nguyên chuỗi (tệp XML)
+
+```
+`mipmap/` là nơi lưu trữ các tệp hình ảnh sử dụng làm app icon hoặc các hình ảnh được tối ưu hóa để hiển thị ở nhiều độ phân giải màn hình khác nhau
+```
+
+**7. Other files**
+
+# Code Signing
